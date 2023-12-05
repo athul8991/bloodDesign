@@ -18,7 +18,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  line-height: 1;
+  
   text-decoration: none;
   color: #ff7733;
   font-size: 18px;
@@ -27,41 +27,23 @@ body {
   height: 40px;
   border: 1px solid #ff7733;
   position: relative;
-  transition: 0.3s;
+  transition: background-color 0.3s;
   overflow: hidden;
   background-color: #ffffff;
+  outline: none;
 }
 
-.reg-btn::before {
-  content: "";
-  display: block;
-  font-size: 11px;
-  width: 60px;
-  text-align: center;
-  /* background-color: #f00; */
-  color: #fff;
-  padding: 7px 0 3px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: translate(-34%, -4px) rotate(-35deg);
-  transition: .3s;
-}
 
 .reg-btn:hover {
   color: #fff;
-  background-color: #ff7733;;
+  background-color: #ff7733;
+  outline: none;
+}
+.bg-saffron{
+    background-color:#ff7733;
+    color: white;
 }
 
-.reg-btn:hover::before {
-  /* background-color: #fff; */
-  color: #ff7733;
-}
-
-.reg-btn:hover::after {
-  background-color:#ff7733;
-  color:#fff;
-}
   
 
   .center {
