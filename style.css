@@ -3,17 +3,11 @@ body {
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
     background: rgb(255, 248, 248);
      background: rgb(255, 253, 253);
-     background: url(https://i.ibb.co/mHhyJxG/blood.jpg);
-     /* background-color: rgb(172, 129, 129); */
-     background-position: center;
-     background-size:contain;
-     background-repeat: no-repeat;
+    
 
   }
   
-  a {
-    /* color: #00B7FF; */
-  }
+  
   .reg-btn {
   display: flex;
   align-items: center;
@@ -23,7 +17,7 @@ body {
   color: #ff7733;
   font-size: 18px;
   border-radius: 5px;
-  width: 100%;
+  width: 200px;
   height: 60px;
   text-align: center;
   border: 1px solid #ff7733;
@@ -34,6 +28,12 @@ body {
   padding-top: 15px;
   font-weight: 900;
   outline: none;
+  /* margin: auto; */
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: block;
 }
 
 
@@ -41,6 +41,30 @@ body {
   color: #fff;
   background-color: #ff7733;
   outline: none;
+}
+.home-container{
+  position: relative;
+  height: 100vh;
+  /* background: red; */
+  text-align: center;  
+}
+.btn-container{
+  background: url(https://i.ibb.co/T1YWY76/blood1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.btn-container::before{
+  width: 100%;
+  height: 100vh;
+  content: '';
+  position: relative;
+  display:block;
+  /* background-color:rgba(255, 94, 0, 0.3); */
+  overflow: hidden;
+  margin: auto;
+  margin-left: -15px;
+
 }
 .bg-saffron{
     background-color:#ff7733;
@@ -54,14 +78,33 @@ body {
     height: fit-content;
     width: fit-content;
     text-align: center;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     
   }
    .content{
    
-    padding: 30px;
+    /* padding: 30px; */
     /* background: red; */
-  
+    background-image: url(https://i.ibb.co/19k0t16/blood2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;  
+    width: 100%;
+    overflow: hidden;
+  }
+  .content::before{
+    width: 110%;
+    height: 100vh;
+    content: '';
+    position: relative;
+    display:block;
+    background-color: rgba(0, 0, 0,.3);
+    overflow: hidden;
+    margin: auto;
+    margin-left: -20px;
+    /* z-index: 1; */
+    
+
   }
    .content p {
     /* background: red; */
@@ -72,20 +115,67 @@ body {
     display: inline-block;
     margin-top: 10px;
   }
+  .main-content{
+    width: 100%;
+    
+    /* background-color: rgb(0, 255, 98); */
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 17px;
+
+  }
+  .main-content::before{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background: red;
+
+  }
+  .main-content p i{
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .main-content span{
+    margin-top: 10px;
+    color: #ffffff;
+  }
+  .main-content p .main-exp{
+    font-size: 15px;
+  }
+  .main-content p .main-eng-exp{
+    font-size: 20px;
+  }
+  .fa-quote-left{
+    margin-left: 10px;
+  }
   
-  @media screen and (max-width:760px) {
+  @media only screen and (max-width: 700px) {
     .content{
    
       padding: 5px;
       padding: 0px;
     
     }
+    /* .content p{
+      font-size: 15px;
+    } */
     .center{
-      text-align: justify;
+      text-align: center;
       
     }
     .reg-btn{
         font-size: large;
+    }
+    .main-content{
+      width:80% ;
+      /* color:#ff7733; */
+      /* background-color: green; */
     }
   
     
