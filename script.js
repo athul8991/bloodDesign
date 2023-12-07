@@ -1,9 +1,9 @@
 $(document).ready(()=>{
     let flag =false;
-    $('#myModal').modal({
-        backdrop:'static',
-        Keyboard:false
-    });
+    // $('#myModal').modal({
+    //     backdrop:'static',
+    //     Keyboard:false
+    // });
     $('#myModal').click(()=>{
     
     })
