@@ -156,6 +156,22 @@ body {
   }
   .form-group{
     text-align: left;
+  
+  }
+  ul li{
+    color: rgb(3, 100, 3);
+  }
+  
+  .modal-body ul li::marker{
+    color:#ff7733;
+    font-size: 35px;
+    
+  }
+  .form-check-input{
+    accent-color:green;
+  }
+  .close{
+    color: red;
   }
   
   @media only screen and (max-width: 700px) {
