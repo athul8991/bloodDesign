@@ -9,6 +9,30 @@
   </head>
   <body>
     <div class="container-fluid">
+      <div  id="myModal" class="modal" tabindex="3" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title"></h5>
+              <button type="button" class="close" id="agrClose" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <ul>
+                <li>The functioning of the Quick Action Team is vested under the Yuva Morcha Alakode Mandal Committee.</li>
+
+                  <li> I can participate in blood donation and charitable activities without seeking reward. </li>
+                  
+                  <li>I will never abuse this duty.</li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" id="agreebt" class="btn btn-outline-success ">I agree</button>
+            </div>
+          </div>
+        </div>
+      </div>
         <div class="row">
             <div class="col-md-6 center">
               <h4>Register</h4>
@@ -21,10 +45,6 @@
                   <div class="form-group col-md-6">
                     <label for="inputName">Name</label>
                     <input type="name" class="form-control" id="inputName">
-                  </div>
-                  <div class="form-group col-md-6">
-                    <label for="inputPassword4">Password</label>
-                    <input type="password" class="form-control" id="inputPassword4">
                   </div>
                 </div>
                 <div class="form-group">
@@ -65,5 +85,10 @@
             </div>
         </div>
     </div>
+     
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+
   </body>
 </html>
