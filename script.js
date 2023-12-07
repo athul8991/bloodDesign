@@ -15,7 +15,7 @@ $(document).ready(()=>{
     })
     $("#agrClose").click(()=>{
         flag = false;
-        window.location.href="/";
+        window.location.href="/bloodDesign";
     });
 
    
