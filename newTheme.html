@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blood Donation</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom Styles -->
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .jumbotron {
+      /* background-color: rgb(255, 93, 12); */
+      background-image: radial-gradient(rgb(224, 110, 56), rgb(255, 93, 12));
+      /* background-color: transparent; */
+      color: #fff;
+      padding: 100px 25px;
+      margin-bottom: 0;
+    }
+
+    .btn-reg {
+      /* background-color: rgb(255, 93, 12);
+       */
+       border: 1px solid rgb(255, 255, 255) ;
+      color: #fff;
+      font-weight:700;
+      transition: border 2s;
+    }
+    .btn-reg:hover{
+        background-color: #d84800;
+        color: white;
+        border: 1px solid  #d84800;
+    }
+    .content{
+    height: 84vh;
+    /* background: url(https://i.ibb.co/34Qf7TZ/blood1.jpg); */
+    /* background-image: radial-gradient(rgb(224, 110, 56), rgb(255, 93, 12)); */
+    background-position: center;
+    background-size: cover;
+    }
+    @media screen and (max-width:700px) {
+        .content{
+            height: 101vh;
+        }
+        .jumbotron{
+            padding: 40PX 5PX;
+        }
+    }
+  </style>
+</head>
+
+<body class="bg-dark">
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark color-saf">
+    <a class="navbar-brand color-saf" href="#">Blood Donation</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse text-center" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Gallery</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#">Find Bloo</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Jumbotron / Hero Section -->
+  <section class="c ">
+  <div class="jumbotron text-center content">
+    <h1 class="display-4">Manava Seva Madhava Seva</h1>
+    <p class="lead"><strong>"</strong> When opportunities arise, lend a helping hand with your heart.. <strong>"</strong>
+    </p>
+    <hr class="my-4 bg-white">
+    <p class="lead">What greater virtue is there than saving another life with your blood, energy, and your little time ?</p>
+    <p>Those who are interested in working as a volunteer of the Quick Action Team working under the <br> Yuva Morcha Alakode Mandal Committee are welcome.</p>
+    <a class="btn btn-reg btn-lg" href="/register.html" role="button">Become a Volunteer</a>
+  </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light text-center  pb-3">
+    &copy; 2023 Blood Donation
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+/* register */
+body{
+    background-color: #ff7733;
+}
+.bg-dark{
+    width: 100%;
+}
+.form-group{
+    text-align: left;
+  
+  }
+  ul li{
+    color: rgb(3, 100, 3);
+  }
+  
+  .modal-body ul li::marker{
+    color:#ff7733;
+    font-size: 35px;
+    
+  }
+  
+
+  .center {
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    /* margin-top: 10px; */
+    
+  }
+  .form-check-input{
+    accent-color:green;
+  }
+  .form-check-input:hover{
+    accent-color:red;
+  }
+  .modal-bg{
+    background-color: rgba(255, 115, 0,.05);
+    padding: 50px;
+  }
+  .close{
+    color: red;
+  }
+
+  .reg-btn{
+   font-weight: 700;
+   border:1px solid #ffffff ;
+   color: white;
+  }
+  .reg-btn:hover{
+    border-color: #ff7733;
+    background-color: #993807;
+    color: #ff8649;
+  }
