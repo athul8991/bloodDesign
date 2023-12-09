@@ -1,0 +1,8 @@
+.ticket-container{
+    background-color: red;
+    height: fit-content;
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

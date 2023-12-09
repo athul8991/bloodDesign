@@ -52,3 +52,7 @@ body{
     background-color: #993807;
     color: #ff8649;
   }
+
+.tab{
+  tab-size: 4;
+}

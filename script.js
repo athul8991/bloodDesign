@@ -18,7 +18,21 @@ $(document).ready(()=>{
         window.location.href="/bloodDesign";
     });
 
-   
+    var data= $('#regForm').serializeArray().reduce((obj,item)=>{
+       
+        obj[item.name] = item.value;
+        return obj;
+       });
+
+      
+       if($('#confModal')){
+        $('#confModal').modal({
+            backdrop:'static',
+            Keyboard:false
+        });
+       }
+
+ 
 }
 )
 
